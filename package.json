@@ -8,8 +8,22 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.0.8",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "next": "^10.0.8",
     "react": "17.0.1",
     "react-dom": "17.0.1"
-  }
+  },
+  "description": "Welcome to our frontend coding challenge. In this exercise, you'll create a responsive web app that asks users a series of questions and display their responses on the screen as the questions progress. [Demo](https://hudello-challenges.web.app/conversation)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MannyRG/challenge-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MannyRG/challenge-frontend/issues"
+  },
+  "homepage": "https://github.com/MannyRG/challenge-frontend#readme"
 }

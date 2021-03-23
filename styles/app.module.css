@@ -1,0 +1,99 @@
+.petButtonsGroup{
+display: flex;
+justify-content:center;
+margin: 1rem
+}
+.petButtonText{
+    text-align: center;
+}
+
+.petButton{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-align:center;
+    font-size: 20px;
+}
+
+
+.icons{
+    font-size: size 20px;
+}
+
+.innerContainer{
+border:1px solid gray;
+width: 80%;
+min-height: 100vh;
+}
+
+.question2{
+height: 100%;
+
+}
+
+.title{
+    min-height: 10vh;
+    width: 100%;
+    border-bottom: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.titleInner{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.nameContainer{
+    margin-top: 5%;
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.message{
+    color: white;
+    margin:.2rem; 
+    padding: .7rem;
+    border-radius: 25px;
+    background-color:rgba(75, 75, 240, 0.856);
+    max-width: 50%;
+}
+.response{
+    color: white;
+    margin:.2rem; 
+    padding: .7rem;
+    border-radius: 25px;
+    background-color:rgba(135, 135, 136, 0.918);
+    max-width: 50%;
+}
+
+.textContainer{
+/* border-top: 1px solid gray; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.TextField{
+flex-grow: 1; 
+}
+.messagesContiner1{
+    display: flex;
+    justify-content: flex-start;
+}
+.messagesContiner2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
